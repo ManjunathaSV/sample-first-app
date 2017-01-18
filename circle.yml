@@ -4,7 +4,5 @@ machine:
 dependencies:
   override:
     - npm install
-test:
-  
 general:
   build_dir: src
