@@ -1,0 +1,10 @@
+machine:
+  node:
+    version: 5.8.0
+dependencies:
+  override:
+    - npm install
+test:
+  post:
+#    - ssh ubuntu@52.17.7.181 '/home/ubuntu/script/restart.sh'
+    - ./test.sh
