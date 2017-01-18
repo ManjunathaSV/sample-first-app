@@ -4,9 +4,9 @@
   "description": "simple hello world app",
   "main": "src/index.js",
   "scripts": {
-  	"start": "node src/index.js"
+  	"start": "node src/index.js" 
   },
-  "author": "Manjunatha S V",
+  "author": "Manju",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.16.0",
